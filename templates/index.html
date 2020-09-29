@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script defer src="{{ url_for('static', filename='index.js') }}"></script>
+	</head>
+
+	<body>
+		<textarea id="chat" readonly rows="20" cols="50"></textarea>
+			
+		<form>
+			<input type="text" id="username" placeholder="Username" value="Anonymous">
+			<input type="text" id="message" placeholder="Message">
+			<button type="button" id="submit">Submit</button>
+		</form>
+	</body>
+</html>

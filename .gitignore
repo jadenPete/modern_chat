@@ -1,0 +1,7 @@
+__pycache__/
+
+/node_modules/
+/static/
+
+/poetry.lock
+/yarn.lock
